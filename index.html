@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ==================== Title ==================== -->
+    <title>Frontend Mentor | Pod request access landing page</title>
+
+    <!-- ==================== Icon ==================== -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <!-- ==================== Google fonts ==================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ==================== Google icons ==================== -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- ==================== CSS ==================== -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style-tablet.css" />
+    <link rel="stylesheet" href="./css/style-mobile.css" />
+
+    <!-- ==================== JavaScript ==================== -->
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="website">
+      <header>
+        <img src="./assets/desktop/logo.svg" alt="" class="header__logo" />
+      </header>
+      <main>
+        <section class="main__content">
+          <h1 class="main__content__h1">
+            <span class="main__content__h1--green">Publikujte Váš podcast</span>
+            kamkoľvek.
+          </h1>
+          <p class="main__content__p">
+            Nahrajte Váš zvuk do Podu jediným kliknutím. Potom budeme
+            distribuovať Váš podcast napríklad na Spotify, Apple Podcasts alebo
+            Google Podcasts!
+          </p>
+
+          <form id="form" class="main__content__form">
+            <div class="form-control">
+              <input
+                type="email"
+                placeholder="E-mailová adresa"
+                id="email"
+                class="main__content__form__email"
+              />
+              <p class="error-message"></p>
+            </div>
+            <button>Vyžiadať prístup</button>
+          </form>
+
+          <section class="main__content__streaming-logos">
+            <img
+              src="./assets/desktop/spotify.svg"
+              alt=""
+              class="main__content__streaming-logos__spotify"
+            />
+            <img
+              src="./assets/desktop/apple-podcast.svg"
+              alt=""
+              class="main__content__streaming-logos__apple"
+            />
+            <img
+              src="./assets/desktop/google-podcasts.svg"
+              alt=""
+              class="main__content__streaming-logos__google"
+            />
+            <img
+              src="./assets/desktop/pocket-casts.svg"
+              alt=""
+              class="main__content__streaming-logos__pocket"
+            />
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

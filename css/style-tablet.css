@@ -1,0 +1,48 @@
+@media (max-width: 1454px) {
+  .website {
+    background-image: url(../assets/desktop/bg-pattern-dots.svg),
+      url(../assets/tablet/image-host.jpg);
+    background-position: bottom 4px left 39px, top right;
+    height: 1024px;
+    width: 768px;
+  }
+
+  .header__logo {
+    margin: 50px 0 149px 39px;
+  }
+
+  .main__content {
+    margin: 0 0 0 39px;
+    width: 635px;
+  }
+
+  .main__content__h1 {
+    font-size: 48px;
+    height: 112px;
+    line-height: 56px;
+    width: 635px;
+  }
+
+  button {
+    background-color: #54e6af;
+    border: none;
+    border-radius: 28px;
+    color: #121725;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 46px;
+    line-height: 28px;
+    padding-right: 5px;
+    width: 162px;
+  }
+
+  button:hover {
+    background-color: #b3ffe2;
+  }
+
+  .form-control .error-message {
+    left: 70px;
+    top: 673px;
+  }
+}

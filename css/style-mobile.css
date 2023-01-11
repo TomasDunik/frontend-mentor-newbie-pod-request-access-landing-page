@@ -1,0 +1,102 @@
+@media (max-width: 729px) {
+  .website {
+    background-image: url(../assets/mobile/image-host.jpg);
+    background-position: top right;
+    height: 667px;
+    width: 375px;
+  }
+
+  header {
+    align-items: center;
+    background-color: rgba(18, 23, 37, 0.94);
+    display: grid;
+    height: 163px;
+    justify-content: center;
+    width: 375px;
+  }
+
+  .header__logo {
+    margin: 0;
+    margin-top: 16px;
+  }
+
+  .main__content {
+    align-items: center;
+    background-color: rgba(18, 23, 37, 0.94);
+    height: 504px;
+    margin: 0;
+    text-align: center;
+    width: 375px;
+  }
+
+  .main__content__h1 {
+    font-size: 26px;
+    height: 76px;
+    line-height: 38px;
+    margin-bottom: 16px;
+    margin-top: 12px;
+    width: 332px;
+  }
+
+  .main__content__p {
+    font-size: 15px;
+    height: 100px;
+    line-height: 25px;
+    margin-bottom: 33px;
+    width: 327px;
+  }
+
+  .main__content__form {
+    height: 46px;
+    order: 1;
+    width: 327px;
+  }
+
+  .main__content__form__email {
+    width: 260px;
+  }
+
+  button {
+    left: 24px;
+    padding-right: 0;
+    position: absolute;
+    top: 542px;
+    width: 326px;
+  }
+
+  button:focus {
+    background-color: #b3ffe2;
+  }
+
+  .main__content__streaming-logos {
+    height: 17px;
+    margin-bottom: 48px;
+    margin-top: 0;
+    width: 315px;
+  }
+
+  .main__content__streaming-logos__spotify {
+    height: 17px;
+    width: 56px;
+  }
+
+  .main__content__streaming-logos__apple {
+    height: 17px;
+    width: 45px;
+  }
+
+  .main__content__streaming-logos__google {
+    height: 11px;
+    width: 73px;
+  }
+
+  .main__content__streaming-logos__pocket {
+    height: 15px;
+    width: 77px;
+  }
+
+  .form-control .error-message {
+    left: 56px;
+    top: 519px;
+  }
+}
